@@ -1,0 +1,16 @@
+ 
+.selectBox{
+
+  position: relative;   
+  left: 40%;   
+  padding-top: 250px;
+  width:  300px;
+ 
+}
+
+.exceedError{
+  padding-top: 5px;
+  color: #F00
+}
+
+ 
