@@ -18,7 +18,6 @@ renderMovies = (response) =>
 {
     if(response.Search===undefined) return ;
     var options=[];
-    console.log(response.Search)
     response.Search.forEach(element => {
           options.push({"value":element.Title, "label":element.Title})
     });
